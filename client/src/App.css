@@ -1,0 +1,78 @@
+.form-data {
+  display: grid;
+  place-items: center;
+}
+.link-style a{
+  display: grid;
+  place-items: center;
+}
+.me-auto a {
+  text-decoration: none;
+}
+.list-buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 80px;
+}
+.fa-solid {
+  cursor: pointer;
+  font-size: 20px;
+  color: rgba(255, 0, 0, 0.724);
+}
+.fa-regular {
+  color: green;
+  cursor: pointer;
+  font-size: 20px;
+}
+.admin-panel {
+  display: grid;
+  place-items: center;
+}
+.para-home,
+.para-update,
+.para-admin,
+.para-demo {
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  height: 4rem;
+  translate: 0 10px;
+  font-size: 18px;
+  color: #fff;
+}
+.para-home {
+  background-color: rgba(78, 168, 247, 0.79);
+}
+.para-admin {
+  background-color: rgba(182, 78, 247, 0.79);
+}
+.para-demo {
+  background-color: rgba(247, 160, 78, 0.703);
+}
+.para-update {
+  background-color: rgba(247, 78, 78, 0.79);
+}
+.footer-bottom{
+  position: relative;
+  background-color: rgb(92, 91, 91);
+  top: 10px;
+}
+.grid-two-column {
+  grid-template-columns: repeat(2, 1fr);
+}
+.grid {
+  display: grid;
+  gap: 5rem;
+}
+footer p {
+  color: #fff;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  max-width: 120rem;
+  margin-left: 13rem;
+}
